@@ -21,7 +21,7 @@ ifneq ($(filter condor falcon ido merlin osprey otus surnia,$(TARGET_PRODUCT)),)
     PRODUCT_COPY_FILES += \
         vendor/pure/prebuilt/bootanimation/720.zip:system/media/bootanimation.zip
 endif
-ifneq ($(filter axon7 x2,$(TARGET_PRODUCT)),)
+ifneq ($(filter d850 axon7 x2,$(TARGET_PRODUCT)),)
     PRODUCT_COPY_FILES += \
         vendor/pure/prebuilt/bootanimation/1440.zip:system/media/bootanimation.zip
 endif       
